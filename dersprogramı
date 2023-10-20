@@ -3,25 +3,27 @@
     <head>
         <body>
             <h1> DERS PROGRAMI TABLOSU</h1>
-            <table>
+            <table border="1" width="800" height="400" cellpadding="20" 
+            style="text-align: center;">
+            
                 <caption>2023-2024 GÜZ DÖNEMİ DERS PROGRAMI</caption>
                 <tr>
-                    <th width="150">Ders</th>
-                    <th width="150">Saat</th>
-                    <th width="150">Pazartesi</th>
-                    <th width="150">Salı</th>
-                    <th width="150">Çarşamba</th>
-                    <th width="150">Perşembe</th>
-                    <th width="150">Cuma</th>
+                    <th >Ders</th>
+                    <th >Saat</th>
+                    <th >Pazartesi</th>
+                    <th >Salı</th>
+                    <th >Çarşamba</th>
+                    <th >Perşembe</th>
+                    <th >Cuma</th>
                 </tr>
                 <tr>
                     <td>1.Ders</td>
                     <td>08.40-09.30</td>
-                    <td>BTE307 Eğitimde Modelleme ve Tasarım</td>
-                    <td>BTE113 Bilişim ve Matematik</td>
-                    <td>EGT104 Sınıf Yönetimi</td>
-                    <td>GKS107 Bilim Tarihi ve Felsefesi</td>
-                    <td>BTE311 Web Tabanlı Programlama</td>
+                    <td rowspan="4">BTE307 Eğitimde Modelleme ve Tasarım</td>
+                    <td rowspan="3">BTE113 Bilişim ve Matematik</td>
+                    <td rowspan="2">EGT104 Sınıf Yönetimi</td>
+                    <td rowspan="2">GKS107 Bilim Tarihi ve Felsefesi</td>
+                    <td rowspan="6">BTE311 web Tabanlı Programlama</td>
                 </tr>
                 <tr>
                     <td>2.Ders</td>
@@ -45,9 +47,9 @@
                     <td>4.Ders</td>
                     <td>11.40-12.30</td>
                     <td></td>
+                    <td rowspan="2">BTE309 Bilişim Öğretim Programları</td>
+                    <td rowspan="2">EGT303 Eğitimde Etik ve Ahlak</td>
                     <td></td>
-                    <td>BTE309 Bilişim Öğretim Programları</td>
-                    <td>EGT303 Eğitimde Etik ve Ahlak</td>
                     <td></td>
                 </tr>
                 <tr>
@@ -73,7 +75,7 @@
                     <td>14.40-15.30</td>
                     <td></td>
                     <td></td>
-                    <td></td>
+                    <td rowspan="2">GKS105 Kültür ve Dil</td>
                     <td></td>
                     <td></td>
                 </tr>
@@ -82,7 +84,9 @@
                     <td>15.40-16.30</td>
                     <td></td>
                     <td></td>
-                    <td>GKS105 Kültür ve Dil</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                     <td></td>
                     <td></td>
                 </tr>
