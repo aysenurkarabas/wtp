@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,25 @@
    
 </head>
 <body>
+    <img src="gorseller/6.jpg" id="resimm" margin="100px" width="300px" height="300px"> 
+  
+
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+    <img id="resim1" src="gorseller/1.jpg" width="300px" height="300px" style="display:none">
+    <button type="button" onclick="document.getElementById('resim1').style.display='block'">Göster</button>
+    <button type="button" onclick="document.getElementById('resim1').style.display='none'">Gizle</button>
+    
+    <img id="resim2" src="gorseller/2.jpg" width="300px" height="300px" style="display:none">
+    <button type="button" onclick="document.getElementById('resim2').style.display='block'">Göster</button>
+    <button type="button" onclick="document.getElementById('resim2').style.display='none'">Gizle</button>
+    
+    <img id="resim3" src="gorseller/3.jpg" width="300px" height="300px" style="display:none">
+    <button type="button" onclick="document.getElementById('resim3').style.display='block'">Göster</button>
+    <button type="button" onclick="document.getElementById('resim3').style.display='none'">Gizle</button>
+
+
+
     <script>
         function RastgeleRenkOlustur(){
             var randomColor = '#' + Math.floor(Math.random()*28012002).toString(16);
@@ -20,7 +39,11 @@
         window.onload = RastgeleRenkOlustur;
         window.onbeforeunload = RastgeleRenkOlustur;
 
-        var liste = [""]
+        var res= document.getElementById("resim");
+        var liste = new Array("gorseller/1.jpg", "gorseller/2.jpg", "gorseller/3.jpg", "gorseller/4.jpg", "gorseller/5.jpg", "gorseller/6.jpg", "gorseller/7.jpg", "gorseller/8.jpg", "gorseller/9.jpg", "gorseller/10.jpg");
+        var r= Math.floor(liste.length*Math.random());
+        window.alert(r);
+        res.src=liste[r]; 
     </script>
 </body>
 </html>
